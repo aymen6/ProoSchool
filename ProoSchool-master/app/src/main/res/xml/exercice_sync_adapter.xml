@@ -1,0 +1,5 @@
+<sync-adapter xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accountType="com.odoo.auth"
+    android:contentAuthority="com.odoo.Exercices.model.proschool_homework_student"
+    android:supportsUploading="true"
+    android:userVisible="true" />

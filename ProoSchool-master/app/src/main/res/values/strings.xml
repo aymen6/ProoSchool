@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="session_bookmark_status">This image shows the session bookmark status.</string>
+    <string name="app_name">ProoSchool</string>
+    <string name="item_track">This is a track symbol.</string>
+    <string name="session_speaker_icon">This is the speaker icon.</string>
+    <string name="session_calender_icon">This is a calendar icon.</string>
+    <string name="session_clock_icon">This is a clock icon.</string>
+    <string name="session_location_icon">This is a location icon.</string>
+
+    <string name="sync_label_customers">Customers</string>
+    <string name="toast_information_saved">Information Saved</string>
+    <string name="toast_image_size_too_large">Image size too large !</string>
+    <string name="label_no_customer_found"> recherche non Trouvé !</string>
+    <string name="message_to">Message to %s</string>
+    <string name="add_internal_note">Add and internal note</string>
+    <string name="internal_note_hint">Add an internal note that will not be sent to the followers</string>
+    <string name="label_log_note">Log note</string>
+    <string name="label_send_message"><u>Send a message</u></string>
+    <string name="label_log_an_internal_note"><u>Log an internal note</u></string>
+    <string name="label_version_build">Build</string>
+    <string name="toast_permission_download_storage">Storage permission required to create downloaded file on your sdcard.</string>
+    <string name="toast_permission_download_storage_help">Storage permission required to store downloaded files on sdcard of your phone. Please grant permission for use this feature</string>
+    <string name="confirm_are_you_sure_want_to_delete">Are you sure want to delete ?</string>
+    <string name="toast_record_deleted">Record deleted</string>
+    <!--       Slider         -->
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">Démarrer</string>
+
+    <string name="slide_1_title">Bienvenu</string>
+    <string name="slide_1_desc"> Bienvenu à Proschool  </string>
+
+    <string name="slide_2_title"> À propos ProSchool </string>
+    <string name="slide_2_desc"> Application de gestion de la vie scolaire de vos enfant  </string>
+
+    <string name="slide_3_title">Acces parent</string>
+    <string name="slide_3_desc">L\'application vous permet de participer directement dans le parcours educatif de vos enfants</string>
+
+    <string name="slide_4_title">Objectif Du L\'application</string>
+    <string name="slide_4_desc">C\'est un espace personnel dans lequel vous pouvez consulter tous les informations concernant vos enfants </string>
+
+    <!-- For spinner document-->
+    <string name="spin"> type de document choisi </string>
+
+    <string-array name="spinnerItems">
+        <item>certificat de présence</item>
+        <item>attestation </item>
+
+    </string-array>
+</resources>

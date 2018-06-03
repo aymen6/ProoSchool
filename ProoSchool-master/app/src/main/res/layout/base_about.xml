@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/abtus_header"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/odoo_office_bg"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/txvVersionName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/font_condensed"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="25dp"
+                    android:text="ProoSchool"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txvVersionName1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/font_condensed"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="25dp"
+                    android:text="@string/app_version_name"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ebebeb" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/line0"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/font_light"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="Qui sommes nous ? "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/line1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/font_light"
+                    android:gravity="left"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="La société ProoSoft Cloud est une Société de services et d'ingénierie en informatique qui est spécialisée dans l'intégration de l'ERP Odoo."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/line2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/map"
+                    android:fontFamily="@string/font_light"
+                    android:gravity="left"
+                    android:paddingBottom="10dp"
+
+                    android:paddingTop="20dp"
+                    android:text="Adresse :  47 Rue Mohamed Abdelwahab"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColorLink="#414141" />
+
+                <TextView
+                    android:id="@+id/line3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/font_light"
+                    android:gravity="left"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="20dp"
+                    android:drawableLeft="@drawable/standard"
+
+                    android:text="Tél : (+216) 72 887 095 "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColorLink="#414141" />
+
+                <TextView
+                    android:id="@+id/line4.0"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/font_light"
+                    android:gravity="left"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="20dp"
+                    android:drawableLeft="@drawable/email_p"
+
+                    android:text="E-mail : contact@ProoSoft.com "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColorLink="#414141" />
+
+                <TextView
+                    android:id="@+id/line4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/base_chatter_view_background"
+                    android:fontFamily="@string/font_light"
+                    android:gravity="left"
+                    android:paddingBottom="10dp"
+
+                    android:paddingTop="10dp"
+                    android:text="@string/about_Company_line1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColorLink="#414141" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

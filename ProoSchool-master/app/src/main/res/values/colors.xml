@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Odoo Theme Colors -->
+    <color name="color_primary">#F44336</color>
+    <color name="dark_blue">#28a7fc</color>
+    <color name="medium_text">#7e7e7e</color>
+
+    <!-- Drawer Colors -->
+    <color name="drawer_text_color">#282828</color>
+    <color name="drawer_text_color_selected">#414141</color>
+    <color name="drawer_icon_tint">#808080</color>
+    <color name="drawer_icon_tint_selected">#414141</color>
+    <color name="drawer_background">#ffffff</color>
+    <color name="drawer_separator_text_color">#acacac</color>
+    <color name="drawer_separator_background">#e5e5e5</color>
+    <color name="ColorArrow">#cccccc</color>
+    <color name="styleWrite">#d7e8fa</color>
+    <color name="styleWrite1">#072e7f</color>
+    <color name="stylebtnlogin">#3d9f87</color>
+    <color name="background">#f5f7fa</color>
+    <color name="textcolor">#4c6086</color>
+    <color name="primary_text">#212121</color>
+
+
+
+    <!-- Android Style Colors -->
+    <color name="android_blue">#33B5E5</color>
+    <color name="android_blue_dark">#0099cc</color>
+    <color name="android_violet">#aa66cc</color>
+    <color name="android_violet_dark">#9933CC</color>
+    <color name="android_green">#99CC00</color>
+    <color name="android_green_dark">#669900</color>
+    <color name="android_orange">#FFBB33</color>
+    <color name="android_orange_dark">#FF8800</color>
+    <color name="android_red">#ff4444</color>
+    <color name="android_red_dark">#cc0000</color>
+
+    <color name="control_pressed">#acacac</color>
+
+
+    <array name="letter_tile_colors">
+        <item>@color/android_blue</item>
+        <item>@color/android_violet_dark</item>
+        <item>@color/android_red</item>
+        <item>@color/android_green_dark</item>
+        <item>@color/android_blue_dark</item>
+        <item>@color/android_orange</item>
+        <item>@color/android_red_dark</item>
+        <item>@color/android_violet</item>
+        <item>@color/android_green</item>
+        <item>@color/android_orange_dark</item>
+    </array>
+
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#4682b4</color>
+    <color name="bg_screen2">#14a895</color>
+    <color name="bg_screen3">#B45F04</color>
+    <color name="bg_screen4">#4C0B5F</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#ffff</color>
+    <color name="dot_dark_screen2">#ffff</color>
+    <color name="dot_dark_screen3">#ffff</color>
+    <color name="dot_dark_screen4">#ffff</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#ffff</color>
+    <color name="dot_light_screen2">#ffff</color>
+    <color name="dot_light_screen3">#ffff</color>
+    <color name="dot_light_screen4">#ffff</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+
+
+
+    <color name="base_chatter_view_background">#f3f3f3</color>
+    <color name="base_chatter_view_note_background">#dadada</color>
+
+    <color name="translucent_scrim_top">#26000000</color>
+    <color name="translucent_scrim_top_center">#0C000000</color>
+    <color name="translucent_scrim_bottom">#2A000000</color>
+    <color name="translucent_scrim_bottom_center">#0d000000</color>
+</resources>
